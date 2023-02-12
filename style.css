@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+header{
+	background-color: orange;
+	display: flex; /*coloca os elementos um do lado do outro*/
+	align-items: center; /* alinha todos ao centro */
+	justify-content: space-between; /*Ocupa todo o espaço disponível*/
+	padding: 20px 5%;
+
+}
+
+.logotipo{
+	font-size: 30px;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0 20px;
+	color: black;
+	transition: all .2s ease;
+}
+
+nav ul li a:hover{
+	color: #fff;
+}
+.button a{
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+	background-color: whitesmoke;
+	padding: 10px 20px;
+	border-radius: 10vh; 
+}
+
+.button a:hover{
+	border: 2px solid whitesmoke;
+	background-color: orange;
+}
